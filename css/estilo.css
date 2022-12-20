@@ -41,7 +41,8 @@ nav {
 }
 
 .x {
-    text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
 
 nav h1 {
@@ -52,21 +53,30 @@ nav h1 {
     margin: 30px auto;
 }
 
-nav a {
-    color: var(--white);
-    font-size: 25px;
-    display: flex;
+nav section {
+    display: block;
     justify-content: center;
     padding: 20px;
     transition: all 0.5s;
 }
 
-nav a:hover {
-    background-color: var(--gray);
-    color: var(--primary);
+nav section img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 2rem;
 }
 
-nav > a:hover {
+nav section a {
+    color: var(--white);
+    font-size: 25px;
+}
+
+nav section:hover {
+    background-color: var(--gray);
+}
+
+nav > section > a:hover {
+    color: var(--primary);
     text-decoration: underline;
 }
 
@@ -82,4 +92,21 @@ main div h1 {
     display: flex;
     justify-content: center;
     color: var(--white);
+    text-decoration: double underline 4px;
+    font-size: 60px;
+    margin-bottom: 35px;
+}
+
+picture {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3rem;
+    justify-content: space-around;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+picture > img {
+    height: 12rem;
+    width: 12rem;
 }
