@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga</title>
+    <link rel="stylesheet" href="./css/fruta.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="abrir" onclick="abrirMenu()">&#9776</a>
+    </header>
+    <nav id="menu">
+        <section>
+            <a href="#" class="x" onclick="fecharMenu()">&times</a>
+        </section>
+        <h1>MENU</h1>
+        <section>
+            <img src="./img/icon/abacaxi.png" alt="">
+            <a href="Abacaxi.html">Abacaxi</a>
+        </section>
+        <section>
+            <img src="./img/icon/laranja.png" alt="">
+            <a href="Laranja.html">Laranja</a>
+        </section>
+        <section>
+            <img src="./img/icon/limao.png" alt="">
+            <a href="Limão.html">Limão</a>
+        </section>
+        <section>
+            <img src="./img/icon/manga.png" alt="">
+            <a href="Manga.html">Manga</a>
+        </section>
+        <section>
+            <img src="./img/icon/morango.png" alt="">
+            <a href="Morango.html">Morango</a>
+        </section>
+        <section>
+            <img src="./img/icon/uva.png" alt="">
+            <a href="Uva.html">Uva</a>
+        </section>
+        <section>
+            <img src="./img/icon/drink.png" alt="">
+            <a href="index.html">Todos</a>
+        </section>
+    </nav>
+    <main>
+        <h1>MANGA</h1>
+    </main>
+
+    <script>
+        function abrirMenu() {
+            document.getElementById('menu').style.width = '250px';
+        }
+        function fecharMenu() {
+            document.getElementById('menu').style.width = '0px';
+        }
+    </script>
+</body>
+</html>

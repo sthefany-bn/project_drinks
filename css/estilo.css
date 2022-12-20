@@ -92,15 +92,19 @@ main {
 main div h1 {
     display: flex;
     justify-content: center;
-    color: var(--white);
-    text-decoration: double underline 4px;
+    color: var(--primary);
+    text-decoration: underline 4px;
     font-size: 60px;
     margin-bottom: 35px;
 }
 
 picture {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+picture img {
+    border-radius: 12px;
 }
