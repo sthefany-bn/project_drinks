@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Drinks</title>
+    <title>Drinks</title>
     <link rel="stylesheet" href="./css/estilo.css" />
 </head>
 <body>
@@ -16,16 +16,25 @@
             <a href="#" class="x" onclick="fecharMenu()">&times</a>
         </div>
         <h1>MENU</h1>
-        <a href="#">Abacaxi</a>
-        <a href="#">Limão</a>
-        <a href="#">Manga</a>
-        <a href="#">Morango</a>
-        <a href="#">Uva</a>
+        <a href="Abacaxi.html">Abacaxi</a>
+        <a href="Limão.html">Limão</a>
+        <a href="Manga.html">Manga</a>
+        <a href="Morango.html">Morango</a>
+        <a href="Uva.html">Uva</a>
     </nav>
     <main>
         <div>
             <h1>Drinks</h1>
         </div>
     </main>
+
+    <script>
+        function abrirMenu() {
+            document.getElementById('menu').style.width = '250px';
+        }
+        function fecharMenu() {
+            document.getElementById('menu').style.width = '0px';
+        }
+    </script>
 </body>
 </html>

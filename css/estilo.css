@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0;
+}
+
+:root{
+    --primary: #121212;
+    --secondary: #55adff;
+    --gray: #e5e5e5;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+/*HEDER*/
+header {
+    background-color: var(--primary);
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.abrir {
+    color: var(--white);
+    font-size: 25px;
+}
+
+/*MENU*/
+nav {
+    height: 100%;
+    width: 0px;
+    background-color: var(--primary);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: width 0.3s;
+}
+
+.x {
+    text-decoration: none;
+}
+
+nav h1 {
+    font-size: 40px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+nav a {
+    color: var(--white);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    transition: all 0.5s;
+}
+
+nav a:hover {
+    background-color: var(--gray);
+    color: var(--primary);
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+/*MAIN*/
+main {
+    padding: 20px;
+    min-height: 90vh;
+    transition: margin-left 0.3s;
+    background-color: #0f90cd;
+}
+
+main div h1 {
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+}
