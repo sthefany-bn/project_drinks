@@ -64,6 +64,7 @@ nav section img {
     width: 2rem;
     height: 2rem;
     margin-right: 2rem;
+    margin-bottom: -0.5rem;
 }
 
 nav section a {
@@ -99,14 +100,9 @@ main div h1 {
 
 picture {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 3rem;
     justify-content: space-around;
     margin-left: 3rem;
     margin-right: 3rem;
-}
-
-picture > img {
-    height: 12rem;
-    width: 12rem;
 }
