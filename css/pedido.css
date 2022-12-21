@@ -8,8 +8,34 @@
     --primary: #121212;
     --secondary: #3b3561;
     --third: #595092;
-    --gray: #e5e5e5;
+    --gray: #707070;
     --white: #FFFFFF;
     --black: #000000;
 }
 
+main form {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+input {
+    padding: 15px;
+    margin: 1rem;
+    border-radius: 5px;
+    border-color: var(--primary);
+}
+
+::placeholder {
+    color: var(--gray);
+    font-size: 14px;
+}
+
+button {
+    margin: 1rem;
+    font-size: 15px;
+    color: var(--white);
+    border-color: var(--primary);
+    background-color: var(--primary);
+    border-radius: 5px;
+    padding: 9px;
+}

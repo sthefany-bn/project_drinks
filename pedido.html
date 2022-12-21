@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manga</title>
+    <title>Pedido</title>
     <link rel="stylesheet" href="./css/fruta.css">
     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="stylesheet" href="./css/pedido.css">
@@ -53,8 +53,13 @@
     <main>
         <h1>Faça o</h1>
         <h1 class="h1p">seu pedido</h1>
-        <form action="https://formsubmit.co/your@email.com" method="POST">
-        
+        <form action="https://formsubmit.co/profissional1889@gmail.com" method="POST">
+            <input type="hidden" name="_autoresponse" value="Pedido anotado, logo logo estará pronto!">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="Name" placeholder="Seu nome" required>
+            <input type="email" name="Email" placeholder="Email" required>
+            <input type="text" name="Drink" placeholder="Bebida" required>
+            <button type="submit">Enviar</button>
         </form>
     </main>
 
