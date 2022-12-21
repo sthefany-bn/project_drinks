@@ -87,7 +87,6 @@ main {
     padding: 20px;
     min-height: 100%;
     transition: margin-left 0.3s;
-    //background-color: #0f90cd;
 }
 
 .h1p {
@@ -107,4 +106,20 @@ div img {
     display: flex;
     justify-content: center;
     width: 95%;
+}
+footer {
+    background-color: var(--primary);
+    height: 2.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    bottom:0;
+}
+
+h6 {
+    color: var(--gray);
+    font-size: 8px;
+    margin-right: 8px;
 }

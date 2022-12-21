@@ -13,19 +13,3 @@
     --black: #000000;
 }
 
-.ini {
-    display: flex;
-    justify-content: flex-end;
-    text-decoration: none;
-    font-size: 1.2rem;
-    margin-top: -1.6rem;
-    margin-bottom: 0.5rem;
-    margin-right: 2px;
-    color: var(--white);
-    transition: all 0.2s;
-}
-
-div > a:hover {
-    text-decoration: underline;
-    color: var(--third);
-}
