@@ -6,7 +6,8 @@
 
 :root{
     --primary: #121212;
-    --secondary: #55adff;
+    --secondary: #3b3561;
+    --third: #595092;
     --gray: #e5e5e5;
     --white: #FFFFFF;
     --black: #000000;
@@ -84,27 +85,26 @@ nav > section > a:hover {
 /*MAIN*/
 main {
     padding: 20px;
-    min-height: 90vh;
+    min-height: 100%;
     transition: margin-left 0.3s;
-    background-color: #0f90cd;
+    //background-color: #0f90cd;
 }
 
-main div h1 {
+.h1p {
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+main h1 {
     display: flex;
     justify-content: center;
-    color: var(--primary);
-    text-decoration: underline 4px;
+    margin-top: 2rem;
+    color: var(--secondary);
     font-size: 60px;
-    margin-bottom: 35px;
 }
 
-picture {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 20px;
+div img {
+    display: flex;
     justify-content: center;
-}
-
-picture img {
-    border-radius: 12px;
+    width: 95%;
 }
