@@ -38,4 +38,5 @@ button {
     background-color: var(--primary);
     border-radius: 5px;
     padding: 9px;
+    cursor: pointer;
 }
