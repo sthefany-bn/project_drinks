@@ -7,7 +7,7 @@
 :root{
     --primary: #121212;
     --secondary: #3b3561;
-    --third: #595092;
+    --third: #C3E8EE;
     --gray: #e5e5e5;
     --white: #FFFFFF;
     --black: #000000;
@@ -28,4 +28,13 @@
 div > a:hover {
     text-decoration: underline;
     color: var(--third);
+}
+
+img {
+    margin: 0.5rem 0;
+    background-color: var(--primary); 
+}
+
+picture img {
+    border-color: var(--primary);
 }
