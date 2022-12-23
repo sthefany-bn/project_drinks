@@ -115,6 +115,7 @@ main h1 {
     justify-content: center;
     width: 95%;
 }
+
 footer {
     background-color: var(--primary);
     height: 2.5rem;
@@ -140,4 +141,9 @@ h6 {
 .seta:hover{
     color: var(--primary);
     font-weight: bold;
+}
+
+.feito {
+    margin: 1rem;
+    color: var(--secondary);
 }
