@@ -99,11 +99,14 @@ main {
     margin-bottom: 3rem;
 }
 
+main div > h1{
+    color: var(--secondary);
+}
+
 main h1 {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
-    color: var(--secondary);
     font-size: 60px;
 }
 

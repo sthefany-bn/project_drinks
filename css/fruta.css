@@ -22,22 +22,27 @@
     margin-top: -1.6rem;
     margin-bottom: 0.5rem;
     margin-right: 2px;
-    color: var(--white);
-    transition: all 0.5s;
 }
 
+.texti {
+    color: var(--white);
+    transition: all 0.4s;
+
+}
 div > a:hover {
-    text-decoration: underline;
-    font-weight: bold;
     color: var(--third);
 }
 
 .img {
-    display: flex;
+    display: grid;
     justify-content: center;
+    grid-template-columns: auto;
+}
+
+div img {
+    margin: 1.5rem 0;
 }
 
 main h1 {
     color: var(--primary);
-    margin-bottom: 2.5rem;
 }
