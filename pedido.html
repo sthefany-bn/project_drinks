@@ -54,7 +54,20 @@
             <input type="hidden" name="_captcha" value="false">
             <input type="text" name="Name" placeholder="Seu nome" required>
             <input type="email" name="Email" placeholder="Email" required>
-            <input type="text" name="Drink" placeholder="Bebida" required>
+            <select name="bebidas" id="bebidas" aria-placeholder="Escolha a bebida" required>
+                <option value="" disabled selected>Escolha seu drink:</option>
+                <option value="1">Abacaxi Ice</option>
+                <option value="2">Abacaxi X</option>
+                <option value="3">Laranja Fresh</option>
+                <option value="4">Laranjin</option>
+                <option value="5">Limão Cítrico</option>
+                <option value="6">Limão Ice</option>
+                <option value="7">Manga Cítrica</option>
+                <option value="8">Manga Fresh</option>
+                <option value="9">Uva Cítrica</option>
+                <option value="10">Uvinha</option>
+            </select>
+            <input type="text" name="Obs" placeholder="Obs">
             <button type="submit">Enviar</button>
         </form>
     </main>
