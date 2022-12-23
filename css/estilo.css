@@ -131,3 +131,8 @@ h6 {
     font-size: 8px;
     margin-right: 8px;
 }
+
+.suc {
+    display: flex;
+    justify-content: center;
+}
