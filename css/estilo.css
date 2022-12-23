@@ -135,7 +135,8 @@ h6 {
 
 .seta {
     color: var(--secondary);
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-top: 4rem;
 }
 
 .seta:hover{
