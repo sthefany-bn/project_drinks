@@ -8,6 +8,7 @@
     --primary: #121212;
     --secondary: #3b3561;
     --third: #595092;
+    --fourth #C3E8EE;
     --gray: #e5e5e5;
     --white: #FFFFFF;
     --black: #000000;
@@ -77,6 +78,10 @@ nav section:hover {
     background-color: var(--gray);
 }
 
+nav > section > img:hover {
+    background-color: var(--gray);
+}
+
 nav > section > a:hover {
     color: var(--primary);
     text-decoration: underline;
@@ -102,11 +107,6 @@ main h1 {
     font-size: 60px;
 }
 
-div img {
-    display: flex;
-    justify-content: center;
-    width: 95%;
-}
 footer {
     background-color: var(--primary);
     height: 2.5rem;

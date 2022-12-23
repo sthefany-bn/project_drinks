@@ -7,7 +7,8 @@
 :root{
     --primary: #121212;
     --secondary: #3b3561;
-    --third: #C3E8EE;
+    --third: #595092;
+    --fourth #C3E8EE;
     --gray: #e5e5e5;
     --white: #FFFFFF;
     --black: #000000;
@@ -22,19 +23,21 @@
     margin-bottom: 0.5rem;
     margin-right: 2px;
     color: var(--white);
-    transition: all 0.2s;
+    transition: all 0.5s;
 }
 
 div > a:hover {
     text-decoration: underline;
+    font-weight: bold;
     color: var(--third);
 }
 
-img {
-    margin: 0.5rem 0;
-    background-color: var(--primary); 
+.img {
+    display: flex;
+    justify-content: center;
 }
 
-picture img {
-    border-color: var(--primary);
+main h1 {
+    color: var(--primary);
+    margin-bottom: 2.5rem;
 }
