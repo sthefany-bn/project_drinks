@@ -107,6 +107,11 @@ main h1 {
     font-size: 60px;
 }
 
+.principal {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+}
 footer {
     background-color: var(--primary);
     height: 2.5rem;
